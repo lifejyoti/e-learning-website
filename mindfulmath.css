@@ -1,0 +1,331 @@
+body{ background-color: #dbe7eb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+  display: block;
+color: #000080;}
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: #83bdd1;
+    margin-left: 0px;
+    margin-right: 0px;
+  
+    
+  }
+}
+/*image in header -style*/
+
+  picture{float: left; margin-left: -17rem; margin-top:-0.1rem ;
+    }
+
+
+
+/*all images of website*/
+  img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      position: relative;
+      
+    }
+    /*images on index.htmlpage*/
+    .tired{width: 100%;
+      max-height: 600px;
+      object-fit: cover;
+      position: relative;
+      }
+
+    .mathteacher{max-height: 400px ;}
+
+
+    .flex-container {
+      display: flex;
+      text-align:center;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+
+  .more{font-size: 1.7em;}
+
+
+    /* navigation link style */ 
+
+    nav a {
+        
+      color: #471fa5;
+      text-align: justify;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 1.3em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    nav a:visited{color:#800000}
+      nav a:hover{color: #e05941}
+      
+    nav li{display: inline; }
+    li a {padding: 25px;padding: 10px;
+      
+    } 
+
+
+
+    .dropbtn {
+        
+      color: #471fa5;
+      text-align: justify;
+      padding: 0px 0px;
+      text-decoration: none;
+      font-size: 1.3em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      /* buttons on index.html page */
+
+    .button2 {
+      background-color: white!important;
+      color: black!important;
+      border: 2px solid #008CBA!important;
+      padding: 15px 32px;
+    }
+    
+    .button2:hover {
+      background-color: #008CBA!important;
+      color: white!important;
+    }
+
+    /* Dropdown content (hidden by default) */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color:  #ffe5e5;
+z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+float: none;
+color:#471fa5;
+padding: 10px 12px;
+display: block;
+
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.dropdown {
+float: right;
+overflow: hidden;
+}
+
+
+  
+/*All footer throughtout the website*/
+    footer{color: #231814;
+      background-color:#F2F06D;  
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-repeat: no-repeat;
+      
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+    
+
+/*All header throughtout the website*/
+header{color: #231814;
+  background-color:#F2F06D;  
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-repeat: no-repeat;
+  padding-left: 240px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    
+/*joy class of p of aboutus.html*/        
+    
+.joy{border: 2px; border-style: solid;
+border-color: #4B0082; padding: 1em;
+background-color: #ffe5e5;
+margin-left: 50px;}
+/*lets  of ul-class of aboutus.html*/ 
+
+.lets{border: 2px; border-style: solid;
+border-color: #4B0082;padding: 1em;}
+.har{text-align: center;font-size: 2rem;}
+
+
+
+
+
+/*-quadrilateral styles-jyoti3index.html*/
+
+
+h1{color: #2c73c5; font-size: 3rem ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+
+
+}  /*All heading on all pages*/
+  h6 { font-size:20px}
+  h2,h3,h4,h5,h6{text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;}
+  
+
+.topic{font-size: 2rem;}
+p {font-family: "Times New Roman", Times, serif;text-align: center;
+font-size: 1.5rem; color: #000080;}
+      
+ul {
+  background: #ffe5e5;
+font-size: 1.5rem;
+list-style-type: none;}
+
+ol{font-size: 1.5rem;}
+p a{color: #800000;}
+
+
+#quad{
+  
+    border-radius: 10px;
+    max-height: 500px; width: 300px;}
+#A{
+  border-radius: 10px;
+float: right; max-height:500px; width:300px;}
+
+legend {font-size:20px;} 
+table {border:1px; 
+  width: 80%;
+}
+
+  /* Style of table on jyoti3index.htmlpage */
+  table, th, td {
+  border: 3px solid black;font-size: 1.5rem;}
+  th {background-color:#80ced6;
+  height: 60px;}
+  tr:nth-child(even) {background-color: #FFE4E1;}
+
+
+
+
+
+    .grid-container {
+      display: grid;
+    
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      font-size: 2rem;
+      text-align: center;
+      grid-gap:10em;
+    
+      gap: 30px;}
+
+      .grid-container{text-align: center;}
+
+      
+      /* grid container style for homepage using id button123 */ 
+      #button123{display:flex;}
+
+
+
+
+      /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+width: 100%; /* Full width */
+padding: 11px; /* Some padding */ 
+border: 1px double rgb(223, 190, 190); 
+border-radius: 5px; /* Rounded borders */
+box-sizing: border-box; /* Make sure that padding and width stays in place */
+margin-top: 7px; /* Add a top margin */
+margin-bottom: 17px; /* Bottom margin */
+resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+background-color: #73bccd;
+color: rgb(27, 22, 22);
+padding: 13px 21px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+background-color: #49bc4f;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+border-radius: 6px;
+background-color: #ffe5e5;
+padding: 20px;
+}
+.contact {  width: 100px;
+height: 100px;
+font-weight: bold;
+background-color: rgb(230, 148, 148);
+animation: move 5s infinite;
+animation-timing-function: linear;
+position: relative;
+}
+@keyframes move {
+from {left: -25px;}
+to {left: 300px;}
+}
+
+
+
+
+
+.contact
+{
+width: 100%;
+max-width: 400px;
+height: auto;
+}
+
+/* button Grade on navigation */
+      button{background-color: rgb(230, 148, 148)!important;}
+    
+      /* Footer*/
+.footer ul {
+margin-top: 0;
+padding: 0;
+list-style: none;
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 0;
+text-align: center;
+}
+
+.footer ul li a {
+color: #471fa5;
+text-decoration: none;
+opacity: 0.9;
+}
+
+.footer ul li {
+display: inline-block;
+padding: 0 15px;
+}
+
+.footer ul li a:hover {
+opacity: 2.75;
+}
+
+.footer .copyrights {
+margin-top: 16px;
+text-align: center;
+font-size: 14px;
+color: #471fa5;
+}
+
